@@ -36,7 +36,6 @@ pipeline {
     stage('Code Analysis') {
       steps {
             sh 'phploc app/ --log-csv build/logs/phploc.csv'
-
       }
     }
       
